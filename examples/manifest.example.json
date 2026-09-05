@@ -1,0 +1,22 @@
+{
+  "dataset_id": "example-video-dataset",
+  "version": "0.1.0",
+  "description": "Synthetic metadata-only example manifest",
+  "license": "REVIEW_REQUIRED",
+  "commercial_use": "REVIEW_REQUIRED",
+  "ai_training": "REVIEW_REQUIRED",
+  "redistribution": "REVIEW_REQUIRED",
+  "records": [
+    {
+      "record_id": "example-000001",
+      "media_path": "REPLACE_WITH_APPROVED_PATH",
+      "media_type": "video",
+      "duration_seconds": 30.0,
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": 30.0,
+      "source": "SYNTHETIC_EXAMPLE",
+      "rights_status": "REVIEW_REQUIRED"
+    }
+  ]
+}
