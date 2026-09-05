@@ -1,0 +1,19 @@
+{
+  "record_id": "example-000001",
+  "media_type": "video",
+  "description": "Synthetic metadata-only example record",
+  "duration_seconds": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "frame_rate": 30.0,
+  "video_codec": "H264",
+  "container": "MP4",
+  "language": "und",
+  "source": "SYNTHETIC_EXAMPLE",
+  "license": "REVIEW_REQUIRED",
+  "commercial_use": "REVIEW_REQUIRED",
+  "ai_training": "REVIEW_REQUIRED",
+  "redistribution": "REVIEW_REQUIRED",
+  "rights_status": "REVIEW_REQUIRED",
+  "personal_data": "NOT_REVIEWED"
+}
