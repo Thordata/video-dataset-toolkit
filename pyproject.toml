@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-dataset-toolkit"
+version = "0.1.0"
+description = "Tools for validating and preparing video dataset metadata."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Thordata Developer Team", email = "support@thordata.com" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0"
+]
+
+[project.scripts]
+video-dataset = "video_dataset_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
