@@ -4,11 +4,35 @@ Tools and documentation for inspecting, validating, documenting, and preparing v
 
 ## Project Status
 
-Early development.
+Early development: the first manifest validation command is available.
 
 This repository currently defines the project's scope, data principles, manifest format, and planned technical direction. The initial implementation will focus on dataset manifests, metadata validation, media inspection, and reproducible data quality reporting.
 
 This repository does not currently distribute video, audio, subtitles, comments, personal information, or other source media.
+
+## Available Command
+
+Install the package in editable mode with development dependencies:
+
+```bash
+python -m pip install -e ".[dev]"
+```
+
+Validate a manifest:
+
+```bash
+python -m video_dataset_toolkit validate examples/manifest.example.json
+```
+
+A successful validation prints:
+
+```text
+Manifest is valid: examples/manifest.example.json
+```
+
+The validator checks JSON syntax, required fields, permission values, record
+IDs, media types, and non-negative media properties. It does not download,
+decode, modify, or redistribute video files.
 
 ## Why This Project
 
