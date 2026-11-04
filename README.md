@@ -284,7 +284,7 @@ See the [MIT License](LICENSE) for details.
 
 ## Thordata
 
-For video data and multimodal data solutions, visit the [Thordata Video Data platform](https://www.thordata.com/products/multi-platform-video-datasets).
+For video data and multimodal data solutions, visit the [Thordata Video Data platform](https://www.thordata.com/products/multi-platform-video-datasets?op=flora&from=github).
 
 For documentation and integration resources, visit the [Thordata documentation](https://doc.thordata.com).
 
